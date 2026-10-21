@@ -21,10 +21,26 @@
 <section>
     <div class="card">
         <h2>General Characteristics</h2>
-        <p>Fungi are eukaryotic organisms with cell walls made of chitin. Most fungi are multicellular, forming hyphae that create a network called the mycelium. Some fungi, such as yeasts, are unicellular.</p>
+        <p>Fungi are eukaryotic organisms as their cells contain a membrane-bound nucleus and membrane bound organelles and are distinct from plants and animals.</p>
         <img src="images/bracket.jpg" alt="Bracket Fungus">
     </div>
+
+    <div class="card">
+        <h2>Cell Structure</h2>
+        <p>While Fungi have cell walls, they are made of chitin, a large chain of sugar molecules, instead of cellulose. This is one of the key differences that separates plants from fungi.</p>
+        <br>
+        <p>Most Fungi are multicellular and made of long thread like structures called hyphae. These hyphae form a network called the mycelium, which is the main body of the fungus.</p>
 </section>
+
+    <script>
+for (let i = 0; i < 40; i++) {
+    let spore = document.createElement("div");
+    spore.classList.add("spore");
+    spore.style.left = Math.random() * 100 + "vw";
+    spore.style.animationDuration = (6 + Math.random() * 6) + "s";
+    document.body.appendChild(spore);
+}
+</script>
 
 </body>
 </html>
