@@ -285,6 +285,16 @@ function closePopup() {
     
 </script>
 </section>
+    <script>
+for (let i = 0; i < 40; i++) {
+    let spore = document.createElement("div");
+    spore.classList.add("spore");
+    spore.style.left = Math.random() * 100 + "vw";
+    spore.style.animationDuration = (6 + Math.random() * 6) + "s";
+    document.body.appendChild(spore);
+}
+</script>
+
 </body>
 </html>
 
